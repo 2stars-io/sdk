@@ -1,0 +1,43 @@
+{
+  "name": "@2stars/sdk",
+  "version": "0.1.0",
+  "description": "Meta-package — installs the full 2Stars JS SDK suite (Video AI core + React bindings + VerifAI device trust). For Android, see the @2stars-io GitHub org's JitPack-published artifacts.",
+  "type": "module",
+  "files": [
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@2stars/verifai-web": "^3.1.0",
+    "@2stars/video-js":    "^0.4.0",
+    "@2stars/video-react": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2stars-io/sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/2stars-io/sdk/issues"
+  },
+  "homepage": "https://github.com/2stars-io/sdk#readme",
+  "keywords": [
+    "2stars",
+    "verifai",
+    "video",
+    "webrtc",
+    "device-trust",
+    "behavioral-biometrics",
+    "sfu",
+    "p2p",
+    "transcription",
+    "ai-assistant",
+    "react",
+    "react-hooks",
+    "meta-package",
+    "umbrella"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
