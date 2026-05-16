@@ -1,9 +1,18 @@
 {
   "name": "@2stars/sdk",
-  "version": "0.1.0",
-  "description": "Meta-package — installs the full 2Stars JS SDK suite (Video AI core + React bindings + VerifAI device trust). For Android, see the @2stars-io GitHub org's JitPack-published artifacts.",
+  "version": "0.1.1",
+  "description": "Umbrella package for the 2Stars JS SDK suite — Video AI core + React bindings + VerifAI device trust. One install pulls all three; bundlers tree-shake the unused ones.",
   "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
   "files": [
+    "src/",
     "README.md",
     "LICENSE"
   ],
